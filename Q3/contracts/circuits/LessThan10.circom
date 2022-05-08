@@ -13,3 +13,5 @@ template LessThan10() {
 
     out <== lt.out;
 }
+
+component main {public [in]}= LessThan10();
